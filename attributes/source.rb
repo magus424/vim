@@ -18,7 +18,7 @@
 #
 
 default['vim']['source']['version']       = '7.4'
-default['vim']['source']['checksum']      = '601abf7cc2b5ab186f40d8790e542f86afca86b7'
+default['vim']['source']['checksum']      = 'd0f5a6d2c439f02d97fa21bd9121f4c5abb1f6cd8b5a79d3ca82867495734ade'
 default['vim']['source']['prefix']        = "/usr/local"
 default['vim']['source']['configuration'] = "--without-x --enable-pythoninterp --enable-rubyinterp --enable-cscope  --with-features=huge --prefix=#{default['vim']['source']['prefix']}"
 
